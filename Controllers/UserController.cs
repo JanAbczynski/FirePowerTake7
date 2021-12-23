@@ -14,6 +14,7 @@ namespace FirePower.Controllers
         public IActionResult Index()
         {
             Console.WriteLine("test");
+            Console.WriteLine("test");
             return Ok();
         }
 

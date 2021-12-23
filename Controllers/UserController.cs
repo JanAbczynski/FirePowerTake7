@@ -13,6 +13,7 @@ namespace FirePower.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            Console.WriteLine("test");
             return Ok();
         }
 
